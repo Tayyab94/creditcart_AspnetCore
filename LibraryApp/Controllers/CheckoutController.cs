@@ -69,5 +69,34 @@ namespace LibraryApp.Controllers
             else
                 return View("Failure");
         }
+
+        public IActionResult BraintreePlans()
+        {
+            var gateway = _braintreeService.GetGateway();
+            var plans = gateway.Plan.All();
+
+            return
+                View(plans);
+        }
+
+        public IActionResult SubscriptionPlan(string id)
+        {
+            var gateway = _braintreeService.GetGateway();
+
+
+            var Subscriptionrequest = new SubscriptionRequest()
+            {
+              PaymentMethodToken= "My-Paymen-Token-Value",
+              PlanId=id
+            };
+
+            Result<Subscription> result = gateway.Subscription.Create(Subscriptionrequest);
+
+            if (result.IsSuccess())
+                return View("Subscribed");
+            else
+                return View("FailSub");
+        }
+
     }
 }

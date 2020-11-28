@@ -168,3 +168,6 @@ C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.1\S
 C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\LibraryApp.csprojAssemblyReference.cache
 C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Success.cshtml.g.cs
 C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Failure.cshtml.g.cs
+C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\BraintreePlans.cshtml.g.cs
+C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\FailSub.cshtml.g.cs
+C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Subscribed.cshtml.g.cs
