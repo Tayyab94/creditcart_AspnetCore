@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JA8FwYmCQJR84YS0RZe8pd2OumoBEl9AsQEezqhEu4vtkTxjbUZvu13roVAJeSZKprVpqt1KykobVSzDKgae7A==",
+  "dgSpecHash": "GgQmlAa1ccgF+xk6XbRy0d6JTVAY0E7KFDxDF9SJbc0ZyICJyidAsuz9ajhzuN7B+K+tH7qGzYvOxCE8hGqIEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\AdminSSD\\Desktop\\Gatway\\LibraryApp\\LibraryApp\\LibraryApp.csproj",
   "expectedPackageFiles": [
@@ -84,6 +84,7 @@
     "C:\\Users\\AdminSSD\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\AdminSSD\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\AdminSSD\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.2\\sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512",
+    "C:\\Users\\AdminSSD\\.nuget\\packages\\stripe.net\\39.28.0\\stripe.net.39.28.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

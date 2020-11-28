@@ -1,0 +1,41 @@
+﻿@model LibraryApp.Data.ViewModels.BookPurchaseVM
+
+@{
+    ViewData["Title"] = "Purchase with Stripe";
+}
+
+<div class="wrapper">
+    <div class="checkout container">
+        <form id="payment-form" method="post" asp-controller="Checkout" asp-action="CreateStripe">
+            @Html.HiddenFor(n => n.Id)
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" name="Title" asp-for="@Model.Title">@Model.Title</h5>
+                    <p class="card-text">@Model.Description</p>
+                    <p class="card-text"><small class="text-muted">Author: @Model.Author</small></p>
+                    <p class="card-text"><small class="text-muted">Price: @Model.Price</small></p>
+                </div>
+                <img style="width: 90%" class="card-img-bottom" src="@Model.Thumbnail" alt="Card image cap">
+            </div>
+            <section>
+                <div class="btn-drop-in-wrapper">
+                    <div id="bt-dropin"></div>
+                </div>
+            </section>
+            <hr />
+          
+            @Html.HiddenFor(s => s.Nonce, new { @id = "nonce" })
+
+              <script src="https://checkout.stripe.com/checkout.js"
+                        class="stripe-button"
+                        data-key="pk_test_51HsWZfGr75eoraYwxEjk1AObwf5lp1qcaCNozzDKirbwYFLmSHjCfVH4dGD0dBgz94B3XWe3Me3c71BnjxAv7kLX00ALIfDd1D"
+                        data-name="LibraryApp Payment"
+                        data-description="@Model.Author - @Model.Title"
+                        data-locale="en"
+                        data-label="Confirm Payment - $@ViewBag.PurchaseAmount">
+                </script>
+           
+        </form>
+    </div>
+</div>
+

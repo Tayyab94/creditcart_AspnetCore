@@ -32,6 +32,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.2",
           "Microsoft.Extensions.Logging.Debug": "3.1.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
+          "Stripe.net": "39.28.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1400,6 +1401,22 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "Stripe.net/39.28.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {
+            "assemblyVersion": "39.28.0.0",
+            "fileVersion": "39.28.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -1630,6 +1647,9 @@
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.6.26515.6"
           }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
       "System.Console/4.3.0": {
@@ -4560,6 +4580,13 @@
       "sha512": "sha512-ZSwacbKJUsxJEZxwT23uZVrGbaIvXcADZDz5Sr66fikO5eehdcceDncjzwzTzWfW13di8gpTpstx3WJSt/Ci5Q==",
       "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.2",
       "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512"
+    },
+    "Stripe.net/39.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tu7q+u4GJzAr3VkY2+NdOZVVWpWFio/VULZH6YhkzRvG7kmpkQsQ/exluZ9SyTHsR9hIqEFdc5do/WeLWxyMIw==",
+      "path": "stripe.net/39.28.0",
+      "hashPath": "stripe.net.39.28.0.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",

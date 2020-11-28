@@ -171,3 +171,5 @@ C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\R
 C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\BraintreePlans.cshtml.g.cs
 C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\FailSub.cshtml.g.cs
 C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\Subscribed.cshtml.g.cs
+C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.1\Stripe.net.dll
+C:\Users\AdminSSD\Desktop\Gatway\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.1\Razor\Views\Checkout\PurchaseWithScripe.cshtml.g.cs
